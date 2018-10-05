@@ -19,6 +19,7 @@
 //                 Olivier Pascal <https://github.com/pascaloliv>
 //                 Martin Hochel <https://github.com/hotell>
 //                 Frank Li <https://github.com/franklixuefei>
+//                 Drew Diamantoukos <https://github.com/MercifulCode>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.8
 
@@ -251,7 +252,7 @@ declare namespace React {
     }
 
     interface ConsumerProps<T> {
-        children: (value: T) => ReactNode;
+        children?: (value: T) => ReactNode;
         unstable_observedBits?: number;
     }
 
